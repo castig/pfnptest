@@ -1,5 +1,11 @@
 PfnpSite::Application.routes.draw do
   
+  get "lessons/title,"
+
+  get "lessons/description,"
+
+  get "lessons/video"
+
   get "pages/home"
   get "pages/inner"
   root :to => 'pages#index'
