@@ -1,4 +1,9 @@
 PfnpSite::Application.routes.draw do
+  
+  get "pages/home"
+  get "pages/inner"
+  root :to => 'pages#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
